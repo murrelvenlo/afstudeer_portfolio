@@ -1,0 +1,15 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.menu {
+    @include background;
+    
+    li {
+        padding: 0 0.65rem;
+
+        a {
+            color: $black !important;
+            font-weight: bold;
+        }
+    }
+}

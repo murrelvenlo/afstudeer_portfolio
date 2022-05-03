@@ -1,0 +1,17 @@
+@use 'custom';
+
+//import components
+@use "components/animations";
+@use "components/buttons";
+@use "components/typography";
+@use "components/mixins";
+
+//import partials
+@use "sections/navbar";
+@use "sections/welcome";
+@use "sections/footer";
+@use "sections/portfolio";
+@use "sections/skills";
+@use "sections/hobbies";
+@use "sections/experience";
+@use "sections/contact";
