@@ -1,5 +1,6 @@
-@use '../custom' as *;
+@use '../variables' as *;
 @use '../components/mixins' as *;
+@use '../components/breakpoints' as *;
 
 .welcome {
 @include background;
@@ -17,4 +18,19 @@ height: 100vh;
             background-color: red;
         }
     }
+}
+.test{
+    @include xs {
+        color: red;
+    }
+    @include sm {
+        color: blue;
+    }
+    @include md {
+        color: green;
+    }
+    @include lg {
+        color: yellow;
+    }
+    
 }

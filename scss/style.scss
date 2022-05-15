@@ -1,10 +1,12 @@
-@use 'custom';
+@use 'variables';
 
 //import components
 @use "components/animations";
 @use "components/buttons";
 @use "components/typography";
 @use "components/mixins";
+@use "components/breakpoints";
+@use "components/card";
 
 //import partials
 @use "sections/navbar";

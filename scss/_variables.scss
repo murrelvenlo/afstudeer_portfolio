@@ -1,0 +1,41 @@
+
+
+//My theme colors
+$blue:    #0d6efd;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$cyan:    #ecf1fd;
+
+
+//White and gray
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+
+$primary:       $blue;
+$secondary:     $gray-600;
+$danger: $indigo;
+$light:  $cyan;
+$footer: $gray-500;
+
+//Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+//import bootstrap 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
