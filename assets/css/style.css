@@ -33430,7 +33430,10 @@ textarea.form-control-lg {
   padding-top: 2rem;
   margin-top: auto;
   background-color: #adb5bd;
-  line-height: 1.5;
+  /*line-height: 1.5;*/
+  left: 0;
+  width: 100%;
+  bottom: 0;
 }
 .footer a {
   text-decoration: none;
@@ -33878,6 +33881,19 @@ ul {
   .main-timeline9 .description {
     text-align: center;
   }
+}
+.contact {
+  padding-top: 10px;
+}
+.contact .card {
+  margin: auto;
+  width: 800px;
+  background: #95dbff;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px #95dbff;
+  backdrop-filter: blur(11.7px);
+  -webkit-backdrop-filter: blur(12.7px);
+  border: 1px solid #7cd2ff;
 }
 
 /*# sourceMappingURL=style.css.map */
