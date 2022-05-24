@@ -1,0 +1,48 @@
+@use '../components/mixins' as *;
+@use '../components/breakpoints' as *;
+
+.skills{
+.skills-card {
+
+margin: auto;
+    @include xs {
+        color: $secondary  !important;
+        box-shadow: 5px 5px 5px 5px;
+        background-color: $white;
+        width: 18rem !important;
+        margin: 25px;
+    }
+
+    @include sm {
+        color: $secondary  !important;
+        box-shadow: 5px 5px 5px 5px;
+        background-color: $white;
+        width: 18rem !important;
+        margin: 25px;
+    }
+
+    @include md {
+        color: $secondary  !important;
+        box-shadow: 5px 5px 5px 5px;
+        background-color: $white;
+        width: 18rem !important;
+        margin: 25px;
+    }
+
+    @include lg {
+        color: $secondary  !important;
+        box-shadow: 5px 5px 5px 5px;
+        background-color: $white;
+        width: 18rem !important;
+        margin: 25px;
+    }
+
+    .skill-fa{
+        padding: 25px !important;
+        font-size:80px;
+    }
+}
+.fa-star{
+    color: $star;
+}
+}

@@ -1,10 +1,13 @@
 
 
 //My theme colors
-$blue:    #2FB8FF;
+//$blue:    #2FB8FF;
+$blue: #000075; //#000080
 $indigo:  #6610f2;
-$purple:  #6f42c1;
+$purple:  #8C13B2;
 $cyan:    #ecf1fd;
+$blue-gray: #7393B3;
+$gold: #FFD700;
 
 
 //White and gray
@@ -21,11 +24,13 @@ $gray-900: #212529;
 $black:    #000;
 
 
-$primary:       $blue;
-$secondary:     $gray-600;
+$primary: $blue;
+$secondary: $blue-gray;
+$success: $purple;
 $danger: $indigo;
 $light:  $cyan;
 $footer: $gray-500;
+$star: $gold;
 
 //Breakpoints
 $grid-breakpoints: (
