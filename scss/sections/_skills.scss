@@ -1,7 +1,15 @@
 @use '../components/mixins' as *;
 @use '../components/breakpoints' as *;
 
+.bgc{
+    background-color: #f8f8f8 !important; // #E2E1EC
+}
 .skills {
+    h2 {
+        padding: 25px !important;
+        color: $primary;
+    }
+    
     .skills-card {
 
         margin: auto;
@@ -10,7 +18,7 @@
             color: $secondary  !important;
             box-shadow: 5px 5px 5px 5px;
             background-color: $white;
-            width: 18rem !important;
+            width: 17rem !important;
             margin: 25px;
         }
 
@@ -18,7 +26,7 @@
             color: $secondary  !important;
             box-shadow: 5px 5px 5px 5px;
             background-color: $white;
-            width: 18rem !important;
+            width: 17rem !important;
             margin: 25px;
         }
 
@@ -26,7 +34,7 @@
             color: $secondary  !important;
             box-shadow: 5px 5px 5px 5px;
             background-color: $white;
-            width: 18rem !important;
+            width: 17rem !important;
             margin: 25px;
         }
 
@@ -34,7 +42,7 @@
             color: $secondary  !important;
             box-shadow: 5px 5px 5px 5px;
             background-color: $white;
-            width: 18rem !important;
+            width: 17rem !important;
             margin: 25px;
         }
 
@@ -69,25 +77,5 @@
         font-style: italic;
     }
 
-    .foot {
-        .ft-social {
-            .ft-social-list {
-
-                .fa {
-                    color: $primary;
-                    font-size: 30px;
-                }
-            }
-        }
-
-        .ft-copy {
-            .sec-copy {
-                p {
-                    color: $primary;
-                    padding: 10px;
-                }
-            }
-
-        }
-    }
+    
 }

@@ -33384,7 +33384,7 @@ textarea.form-control-lg {
   padding: 0 0.65rem;
 }
 .menu li a {
-  color: #000 !important;
+  color: #000075 !important;
   font-weight: bold;
 }
 
@@ -33625,6 +33625,14 @@ body {
   bottom: 0;
 }
 
+.bgc {
+  background-color: #f8f8f8 !important;
+}
+
+.skills h2 {
+  padding: 25px !important;
+  color: #000075;
+}
 .skills .skills-card {
   margin: auto;
 }
@@ -33633,7 +33641,7 @@ body {
     color: #7393B3 !important;
     box-shadow: 5px 5px 5px 5px;
     background-color: #fff;
-    width: 18rem !important;
+    width: 17rem !important;
     margin: 25px;
   }
 }
@@ -33642,7 +33650,7 @@ body {
     color: #7393B3 !important;
     box-shadow: 5px 5px 5px 5px;
     background-color: #fff;
-    width: 18rem !important;
+    width: 17rem !important;
     margin: 25px;
   }
 }
@@ -33651,7 +33659,7 @@ body {
     color: #7393B3 !important;
     box-shadow: 5px 5px 5px 5px;
     background-color: #fff;
-    width: 18rem !important;
+    width: 17rem !important;
     margin: 25px;
   }
 }
@@ -33660,7 +33668,7 @@ body {
     color: #7393B3 !important;
     box-shadow: 5px 5px 5px 5px;
     background-color: #fff;
-    width: 18rem !important;
+    width: 17rem !important;
     margin: 25px;
   }
 }
@@ -33686,14 +33694,6 @@ body {
 }
 .s-skills .quote {
   font-style: italic;
-}
-.s-skills .foot .ft-social .ft-social-list .fa {
-  color: #000075;
-  font-size: 30px;
-}
-.s-skills .foot .ft-copy .sec-copy p {
-  color: #000075;
-  padding: 10px;
 }
 
 .main-timeline9 {
