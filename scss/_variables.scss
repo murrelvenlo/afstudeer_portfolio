@@ -8,7 +8,9 @@ $purple:  #8C13B2;
 $cyan:    #ecf1fd;
 $blue-gray: #7393B3;
 $gold: #FFD700;
+$mj-blue: #2FB8FF;
 
+$fa-font-path           : "../webfonts";
 
 //White and gray
 $white:    #fff;
@@ -44,3 +46,4 @@ $grid-breakpoints: (
 
 //import bootstrap 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+

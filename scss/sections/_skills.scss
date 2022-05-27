@@ -1,48 +1,93 @@
 @use '../components/mixins' as *;
 @use '../components/breakpoints' as *;
 
-.skills{
-.skills-card {
+.skills {
+    .skills-card {
 
-margin: auto;
-    @include xs {
-        color: $secondary  !important;
-        box-shadow: 5px 5px 5px 5px;
-        background-color: $white;
-        width: 18rem !important;
-        margin: 25px;
+        margin: auto;
+
+        @include xs {
+            color: $secondary  !important;
+            box-shadow: 5px 5px 5px 5px;
+            background-color: $white;
+            width: 18rem !important;
+            margin: 25px;
+        }
+
+        @include sm {
+            color: $secondary  !important;
+            box-shadow: 5px 5px 5px 5px;
+            background-color: $white;
+            width: 18rem !important;
+            margin: 25px;
+        }
+
+        @include md {
+            color: $secondary  !important;
+            box-shadow: 5px 5px 5px 5px;
+            background-color: $white;
+            width: 18rem !important;
+            margin: 25px;
+        }
+
+        @include lg {
+            color: $secondary  !important;
+            box-shadow: 5px 5px 5px 5px;
+            background-color: $white;
+            width: 18rem !important;
+            margin: 25px;
+        }
+
+        .skill-fa {
+            padding: 25px !important;
+            font-size: 80px;
+        }
     }
 
-    @include sm {
-        color: $secondary  !important;
-        box-shadow: 5px 5px 5px 5px;
-        background-color: $white;
-        width: 18rem !important;
-        margin: 25px;
+    .fa-star {
+        color: $star;
     }
+}
 
-    @include md {
-        color: $secondary  !important;
-        box-shadow: 5px 5px 5px 5px;
-        background-color: $white;
-        width: 18rem !important;
-        margin: 25px;
-    }
-
-    @include lg {
-        color: $secondary  !important;
-        box-shadow: 5px 5px 5px 5px;
-        background-color: $white;
-        width: 18rem !important;
-        margin: 25px;
-    }
-
-    .skill-fa{
+.s-skills {
+    h2 {
         padding: 25px !important;
-        font-size:80px;
     }
-}
-.fa-star{
-    color: $star;
-}
+
+    h3,
+    h2 {
+        color: $primary;
+    }
+
+    .fa {
+        color: $mj-blue;
+        font-size: 80px;
+        padding: 10px;
+    }
+
+    .quote {
+        font-style: italic;
+    }
+
+    .foot {
+        .ft-social {
+            .ft-social-list {
+
+                .fa {
+                    color: $primary;
+                    font-size: 30px;
+                }
+            }
+        }
+
+        .ft-copy {
+            .sec-copy {
+                p {
+                    color: $primary;
+                    padding: 10px;
+                }
+            }
+
+        }
+    }
 }

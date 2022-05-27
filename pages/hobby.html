@@ -1,160 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Portfolio</title>
 </head>
+
 <body class="page-content">
-    <nav class="navbar navbar-expand-lg navbar-light menu">
-        <div class="container">
-          <a class="navbar-brand" href="/">
-            <img src="/images/LogoMj.png" alt="logo_mj" height="50" width="50">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Wie ben ik</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="hobby.html">Hobby's</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="experience.html">Ervaringen</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+  <nav class="navbar navbar-expand-lg navbar-light menu">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="/images/LogoMj.png" alt="logo_mj" height="50" width="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Wie ben ik</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hobby.html">Hobby's</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="experience.html">Ervaringen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row text-center">
+      <h1>Mijn hobby’s</h1>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="/images/voetbal.JPG" alt="voetbal">
+          <div class="card-body">
+            <h5 class="card-title">Voetballen</h5>
+            <p class="card-text">Als grote voetbalfan kan het niet anders dan dat ik zelf ook voetbal en me wil meten met de grote spelers. 
+              Ik analyseer meestal de acties tijdens een wedstrijd van mijn favoriete voetbalspelers.</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#football-modal">Lees verder</a>
           </div>
         </div>
-      </nav>
-      <div class="container">
-          <div class="row text-center">
-            <h1>Mijn hobby’s</h1>
-          </div>
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-3">
-              <div class="card">
-                <img class="card-img-top" src="/images/voetbal.JPG" alt="voetbal">
-                <div class="card-body">
-                  <h5 class="card-title">Voetbal</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+        <div class="modal fade" id="football-modal" tabindex="-1" arira-labelledby="modal-title" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Voetballen</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                aria-label="Close"></button>
               </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-              <div class="card">
-                <img class="card-img-top" src="/images/gezelschap.jpg" alt="gezelschap">
-                <div class="card-body">
-                  <h5 class="card-title">Gezelschapsspelletjes</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-              <div class="card">
-                <img class="card-img-top" src="/images/koken.jpeg" alt="koken">
-                <div class="card-body">
-                  <h5 class="card-title">Koken</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-              <div class="card">
-                <img class="card-img-top" src="/images/vakantie.jpg" alt="vakantie">
-                <div class="card-body">
-                  <h5 class="card-title">Reizen</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+              <div class="modal-body">
+                <p>Ik probeer dezelfde acties te ondernemen wanneer ik op het veld sta. Niet altijd met evenveel succes, maar het geeft me zelfvertrouwen en doorzettingsvermogen wanneer ik een wedstrijd speel.
+                  </p>
+                  <p>We spelen met vrienden, dus achteraf wordt er duchtig gediscussieerd en becommentarieerd over hoe iedereen op het veld stond. Dit is meestal even boeiend als de wedstrijd zelf spelen. Het geeft een hechter gevoel van samenhorigheid, samen één ploeg te zijn!</p>
+                  <p>Ik kijk er steeds naar uit om met mijn vrienden te voetballen. We zijn een hechte vriendengroep en dat is ook voelbaar in het dagelijkse leven. We zijn er voor elkaar en zullen elkaar door dik en dun ondersteunen. Natuurlijk maken we ook veel lol samen. Zo’n vriendengroep vind ik erg belangrijk.</p>
               </div>
             </div>
           </div>
+        </div>
       </div>
-   <footer class="footer">
-    <!-- Footer main -->
-    <!-- <section class="footer-main">
-      <div class="footer-main-item">
-        <h2 class="ft-title">Over mij</h2>
-        <ul>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Customers</a></li>
-          <li><a href="#">Careers</a></li>
-        </ul>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="/images/gezelschap.jpg" alt="gezelschap">
+          <div class="card-body">
+            <h5 class="card-title">Gezelschapsspelletjes</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </div>
-      <div class="footer-main-item">
-        <h2 class="ft-title">Resources</h2>
-        <ul>
-          <li><a href="#">Docs</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">eBooks</a></li>
-          <li><a href="#">Webinars</a></li>
-        </ul>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="/images/koken.jpeg" alt="koken">
+          <div class="card-body">
+            <h5 class="card-title">Koken</h5>
+            <p class="card-text">Wanneer ik iets lekkers heb bereid geeft me dit veel voldoening, zeker wanneer mijn disgenoten ook zie genieten van wat ik hen serveer.</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cooking-modal">Lees verder</a>
+          </div>
+        </div>
       </div>
-      <div class="footer-main-item">
-        <h2 class="ft-title">Contact</h2>
-        <ul>
-          <li><a href="#">Help</a></li>
-          <li><a href="#">Sales</a></li>
-          <li><a href="#">Advertise</a></li>
-        </ul>
+      
+      <div class="modal fade" id="cooking-modal" tabindex="-1" arira-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modal-title">Koken</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"
+              aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Ik kook heel graag.  Het lijkt steeds weer een nieuwe uitdaging om een lekker gerecht te bereiden. Natuurlijk kan ik al vele gerechten bereiden zonder dat ik nog een kookboek nodig heb, maar soms probeer ik ook nieuwe gerechten uit.</p>
+                <p>De voorbereiding aan het koken vind ik één van de leuke dingen. In de groentewinkel de beste ingrediënten uitkiezen en de juiste kruiden vinden, dat is voor mij steeds een nieuwe boeiende en uitdaging. Ik vind het steeds fijn als ik kan aantonen dat ik met allerlei kleine dingen een lekker menu kan bereiden.</p>
+                <p>Vanuit mijn Surinaamse achtergrond weet ik hoe ik typische Surinaamse gerechten moet klaarmaken. Ik probeer met deze gerechten mijn vrienden ook steeds te verrassen. Ik heb nog nooit slechte recensies ontvangen, dat is wel leuk.</p>
+                <p>Hier in België is de manier van koken toch wel heel anders dan in mijn thuisland. Hier worden veel aardappelen bereid en worden de meeste groenten afgekookt. Wij gebruiken veel rijst en onze groenten worden dikwijls bereid in een wok of gestoofd in een kookpot. Het is voor mij een uitdaging om deze twee manieren van koken samen te brengen en te experimenteren. Zo probeer ik regelmatig wat nieuws klaar te maken dat beide ‘keukens’ samenbrengt.</p>
+                <p>Natuurlijk hebben wij ook onze specifieke groenten en kruiden, die moet ik aankopen in een Surinaamse winkel want die zijn niet verkrijgbaar in de Belgische winkels.</p>
+                <p>Zelf koken, nieuwe smaken en kookmethodes uitproberen, een lekkere maaltijd bereiden geeft me een goed gevoel.</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="footer-main-item">
-        <h2 class="ft-title">Stay Updated</h2>
-        <p>Subscribe to our newsletter to get our latest news.</p>
-        <form>
-          <input type="email" name="email" placeholder="Enter email address">
-          <input type="submit" value="Subscribe">
-        </form>
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="/images/vakantie.jpg" alt="vakantie">
+          <div class="card-body">
+            <h5 class="card-title">Reizen</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </div>
-    </section> -->
-   
-    <!-- Footer social -->
+    </div>
+  </div>
+  <footer class="foot">
     <section class="ft-social">
-      <ul class="ft-social-list">
-        <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fa fa-github"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-      </ul>
-    </section>
-   
-    <!-- Footer legal -->
-    <section class="ft-legal">
-      <ul class="ft-legal-list">
-        <li><a href="#">Terms &amp; Conditions</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li>&copy; 2019 Copyright Nowrap Inc.</li>
-      </ul>
-    </section>
-  </footer>
+        <ul class="ft-social-list">
+          <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-github"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+      </section>
+      <section class="ft-copy">
+        <div class="sec-copy">
+          <p>&copy; 2022 Ontwerper: Murrel Venlo</p>
+        </div>
+      </section>
+</footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
