@@ -7,6 +7,22 @@
 padding: 5rem 0 0 0;
 width: 100%;
 height: 100vh;
+
+.cv{
+    font-size: 40px;
+    a{
+        width: auto;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+        padding: 14px 25px;
+        display: inline-block;
+        background-color: $primary;
+        color: $white;
+        border-radius: 50px;
+    }
+    
+}
 }
 
 .secs{
@@ -17,6 +33,20 @@ height: 100vh;
         .img-style{
             background-color: red;
         }
+    }
+}
+.img-sec{
+    @include xs {
+        margin-bottom: 25px;
+    }
+    @include sm {
+        padding-bottom: 25px;
+    }
+    @include md {
+        margin-bottom: 25px;
+    }
+    @include lg {
+        margin-bottom: 10px;
     }
 }
 .test{

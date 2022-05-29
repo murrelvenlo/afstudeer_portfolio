@@ -1,10 +1,12 @@
 @use '../components/mixins' as *;
 @use '../components/breakpoints' as *;
+@use '../variables' as *;
 
 .bgc{
     background-color: #f8f8f8 !important; // #E2E1EC
 }
 .skills {
+    padding-bottom: 50px;
     h2 {
         padding: 25px !important;
         color: $primary;

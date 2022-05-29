@@ -1,9 +1,10 @@
 @use '../variables' as *;
 @use "../components/mixins" as *;
+@use '../components/breakpoints' as *;
 
 .foot {
     .ft-social {
-        padding: 0 1.875rem 1.25rem;
+        /*padding: 0 1.875rem 1.25rem;*/
 
         .ft-social-list {
             display: flex;
@@ -45,6 +46,35 @@
         text-decoration: underline;
     }
 
+}
+
+.foot{
+    .ft-social{
+        @include xs {
+        padding-top: 11.25rem;
+            
+            }
+            @include sm {
+                padding-top: 13.25rem;  
+            }
+
+        padding-top: 1.25rem;
+        .ft-social-list{
+            
+            @include xs {
+            display: flex;
+            justify-content: center;
+            border-top: 1px #777 solid;
+            padding-top: 1.25rem;
+            
+            }
+            @include sm {
+                padding-top: 1.25rem;
+            }
+        }
+    }
+  
+ 
 }
 
 // .footer {
