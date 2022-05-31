@@ -1,0 +1,57 @@
+@use '../variables' as *;
+@use "../components/mixins" as *;
+@use '../components/breakpoints' as *;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.hobby {
+
+    h2 {
+        padding: 25px;
+    }
+
+    
+
+    
+        .card {
+            height: 36rem;
+    
+            a {
+                background-color: $white;
+                color: $primary;
+                font-weight: bold;
+    
+            }
+    
+            a:hover {
+                color: $purple;
+                text-decoration: underline;
+            }
+        }
+
+        .crd{
+            @include xs {
+                .card{
+                    height: auto;
+                }
+                margin-bottom: 25px;
+            }
+            @include sm {
+                .card{
+                    height: 34rem;
+                }
+                padding-bottom: 25px;
+            }
+            @include md {
+                .card{
+                    height: 38rem;
+                }
+                margin-bottom: 25px;
+            }
+            @include lg {
+                margin-bottom: 10px;
+            }
+        }
+}
+h1 h2 h3 h4 h5 {
+    font-family: 'Lato', sans-serif;
+}

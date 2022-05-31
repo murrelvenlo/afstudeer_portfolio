@@ -9,52 +9,44 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Portfolio</title>
+  <link rel="shortcut icon" href="/images/icon.ico" type="image/x-icon">
+  <title>Hobby</title>
 </head>
 
-<body class="page-content">
+<body class="page-content hobby">
   <nav class="navbar navbar-expand-lg navbar-light menu">
     <div class="container">
-      <a class="navbar-brand" href="/">
-        <img src="/images/LogoMj.png" alt="logo_mj" height="50" width="50">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Wie ben ik</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="hobby.html">Hobby's</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="experience.html">Ervaringen</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
+        <a class="navbar-brand" href="/">
+            <img src="../images/LogoMj.png" alt="logo_mj" height="50" width="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Wie ben ik</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hobby.html">Hobby's</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </nav>
+</nav>
   <div class="container">
     <div class="row text-center">
-      <h1>Mijn hobby’s</h1>
+      <h2>Mijn hobby’s</h2>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="col-xs-12 col-sm-6 col-md-3 crd">
         <div class="card">
           <img class="card-img-top" src="/images/voetbal.JPG" alt="voetbal">
           <div class="card-body">
@@ -62,14 +54,15 @@
             <p class="card-text">Als grote voetbalfan kan het niet anders dan dat ik zelf ook voetbal en me wil meten
               met de grote spelers.
               Ik analyseer meestal de acties tijdens een wedstrijd van mijn favoriete voetbalspelers.</p>
-            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#football-modal">Lees verder</a>
+            <div class="text-center"><a href="#" class="btn text-center" data-bs-toggle="modal"
+                data-bs-target="#football-modal">Lees verder</a></div>
           </div>
         </div>
         <div class="modal fade" id="football-modal" tabindex="-1" arira-labelledby="modal-title" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="modal-title">Voetballen</h5>
+                <h5 class="modal-title" id="modal-title text-center">Voetballen</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
@@ -87,25 +80,26 @@
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="col-xs-12 col-sm-6 col-md-3 crd">
         <div class="card">
           <img class="card-img-top" src="/images/gezelschap.jpg" alt="gezelschap">
           <div class="card-body">
             <h5 class="card-title">Gezelschapsspelletjes</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">Ik houd van gezelschapsspellen, vooral voor het competitieve karakter. Ook de spellen
+              waar strategie aan bod komt, zijn een uitdaging voor mij en extra stimulans om te winnen. </p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="col-xs-12 col-sm-6 col-md-3 crd">
         <div class="card">
           <img class="card-img-top" src="/images/koken.jpeg" alt="koken">
           <div class="card-body">
             <h5 class="card-title">Koken</h5>
             <p class="card-text">Wanneer ik iets lekkers heb bereid geeft me dit veel voldoening, zeker wanneer mijn
               disgenoten ook zie genieten van wat ik hen serveer.</p>
-            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cooking-modal">Lees verder</a>
+            <div class="text-center"><a href="#" class="btn text-center" data-bs-toggle="modal"
+                data-bs-target="#cooking-modal">Lees verder</a></div>
           </div>
         </div>
       </div>
@@ -141,35 +135,37 @@
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="col-xs-12 col-sm-6 col-md-3 crd">
         <div class="card">
           <img class="card-img-top" src="/images/vakantie.jpg" alt="vakantie">
           <div class="card-body">
             <h5 class="card-title">Reizen</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">Reizen is voor mij eerder ontspanning; even mijn zinnen verzetten en relaxen. Ook het
+              ontdekken van andere culturen spreekt mij wel aan, maar helaas heb ik hiertoe nog niet veel de gelegenheid
+              gekregen.</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
           </div>
         </div>
       </div>
     </div>
+    <footer class="foot">
+      <section class="ft-social">
+        <ul class="ft-social-list">
+          <li><a href="https://www.facebook.com/profile.php?id=100003079420833" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+          <li><a href="https://twitter.com/venlomurrelpri" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/murrel_mj/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://github.com/venlomj"><i class="fa fa-github" target="_blank"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/murrel-venlo-6552bb135/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+      </section>
+      <section class="ft-copy">
+        <div class="sec-copy">
+          <p>&copy; 2022 Ontwerper: Murrel Venlo</p>
+        </div>
+      </section>
+    </footer>
   </div>
-  <footer class="foot">
-    <section class="ft-social">
-      <ul class="ft-social-list">
-        <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fa fa-github"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-      </ul>
-    </section>
-    <section class="ft-copy">
-      <div class="sec-copy">
-        <p>&copy; 2022 Ontwerper: Murrel Venlo</p>
-      </div>
-    </section>
-  </footer>
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

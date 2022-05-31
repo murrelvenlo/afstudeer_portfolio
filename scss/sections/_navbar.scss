@@ -1,5 +1,6 @@
 @use '../variables' as *;
 @use '../components/mixins' as *;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
 .menu {
     @include background;
@@ -17,4 +18,7 @@
             text-decoration: underline;
         }
     }
+}
+h1 h2 h3 h4 h5 {
+    font-family: 'Lato', sans-serif;
 }
