@@ -22362,6 +22362,10 @@ h2, h3 {
     padding-left: 20px;
   }
 }
+.part2 .linkedin {
+  color: #0072b1;
+  font-weight: bold;
+}
 
 .part1 {
   padding-top: 20px;
@@ -22380,6 +22384,22 @@ ul {
 ul a {
   text-decoration: none;
   color: #000;
+}
+
+.cv a {
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 25px;
+  display: inline-block;
+  background-color: #000075;
+  color: #fff;
+  border-radius: 50px;
+  text-transform: initial;
+  font-weight: 500;
+}
+.cv a:hover {
+  background-color: #8C13B2;
 }
 
 h1 h2 h3 h4 h5 {
@@ -22547,6 +22567,19 @@ h1 h2 h3 h4 h5 {
 
 h1 h2 h3 h4 h5 {
   font-family: "Lato", sans-serif;
+}
+
+.stage h3 {
+  color: #e94e2a;
+}
+.stage .go-back {
+  background-color: #000075;
+  color: #fff;
+  margin: 15px;
+  font-weight: bold;
+}
+.stage .go-back:hover {
+  background-color: #8C13B2;
 }
 
 .bgc {

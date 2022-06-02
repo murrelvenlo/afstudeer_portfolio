@@ -25,6 +25,11 @@ h2, h3{
     @include lg {
         padding-left: 20px;
     }
+
+    .linkedin{
+        color: $linkedin;
+        font-weight: bold;
+    }
     
 }
 .part1{
@@ -45,24 +50,21 @@ ul{
     }
 }
 .cv{
-    // padding: 15px;
-    // font-size: 35px;
-    // a{
-    //     width: auto;
-    //     font-size: 25px;
-    //     text-align: center;
-    //     text-decoration: none;
-    //     padding: 14px 25px;
-    //     display: inline-block;
-    //     background-color: $primary;
-    //     color: $white;
-    //     border-radius: 50px;
-    //     text-transform: initial;
-    //     font-weight: 400;
-    // }
-    // a:hover{
-    //     background-color: $purple;
-    // }
+    a{
+        width: auto;
+        text-align: center;
+        text-decoration: none;
+        padding: 14px 25px;
+        display: inline-block;
+        background-color: $primary;
+        color: $white;
+        border-radius: 50px;
+        text-transform: initial;
+        font-weight: 500;
+    }
+    a:hover{
+        background-color: $purple;
+    }
     
 }
 
