@@ -22345,6 +22345,7 @@ h1 h2 h3 h4 h5 {
   color: #fff;
   padding-top: 15px;
   font-weight: bold;
+  padding-bottom: 15px;
 }
 .glas .try .one .myImage {
   height: 300px;
@@ -22357,6 +22358,7 @@ h1 h2 h3 h4 h5 {
 .glas .try .one .fa {
   color: #fff;
   font-size: 30px;
+  padding-bottom: 15px;
 }
 .glas .try .one .fa:hover {
   color: #000075;
@@ -22416,6 +22418,16 @@ h1 h2 h3 h4 h5 {
   font-weight: 500;
   margin-top: 25px;
 }
+@media (min-width: 0) {
+  .glas .try .cv a {
+    margin-bottom: 25px;
+  }
+}
+@media (min-width: 576px) {
+  .glas .try .cv a {
+    margin-bottom: 25px;
+  }
+}
 .glas .try .cv a:hover {
   background-color: #8C13B2;
 }
@@ -22449,6 +22461,16 @@ h1 h2 h3 h4 h5 {
   }
 }
 
+@media (min-width: 0) {
+  .glas {
+    margin: auto;
+  }
+}
+@media (min-width: 576px) {
+  .glas {
+    margin: auto;
+  }
+}
 .foot .ft-social {
   /*padding: 0 1.875rem 1.25rem;*/
 }

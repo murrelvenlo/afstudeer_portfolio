@@ -20,6 +20,7 @@
             color: $white;
             padding-top: 15px;
             font-weight: bold;
+            padding-bottom: 15px;
 
             .myImage {
                 height: 300px;
@@ -35,6 +36,7 @@
             .fa {
                 color: $white;
                 font-size: 30px;
+                padding-bottom: 15px;
             }
 
             .fa:hover {
@@ -94,6 +96,14 @@
                 text-transform: initial;
                 font-weight: 500;
                 margin-top: 25px;
+
+                @include xs {
+                    margin-bottom: 25px;
+                }
+            
+                @include sm {
+                    margin-bottom: 25px;
+                }
             }
             a:hover{
                 background-color: $purple;
@@ -135,4 +145,19 @@
             transform: rotate(360deg);
         }
     }
+}
+.glas{
+    @include xs {
+        margin: auto;
+    }
+
+    @include sm {
+        margin: auto;
+    }
+
+    @include md {
+
+    }
+
+    @include lg {}
 }
