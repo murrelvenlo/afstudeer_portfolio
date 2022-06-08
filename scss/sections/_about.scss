@@ -1,73 +1,138 @@
 @use '../variables' as *;
 @use '../components/mixins' as *;
 @use '../components/breakpoints' as *;
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
-h2, h3{
-    color: $primary;
-    padding: 10px;
-}
-.part2{
-    padding-top: 20px;
-    p{
-        font-size: 18px;
+.glas {
+    .try {
+
+        width: 100vw;
+
+        .one {
+            background: rgb(0, 0, 255, 0.5); //rgb(0, 191, 255, 0.1)
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            //border-radius: 0px 16px 0px 0px;
+            border-top-left-radius: 16px 8px;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            margin-left: 0px;
+            padding-left: 0px;
+            border-radius: none;
+            color: $white;
+            padding-top: 15px;
+            font-weight: bold;
+
+            .myImage {
+                height: 300px;
+                width: 300px;
+                margin: auto;
+            }
+
+            .cv-right-content {
+                margin-top: 20px !important;
+
+            }
+
+            .fa {
+                color: $white;
+                font-size: 30px;
+            }
+
+            .fa:hover {
+                color: $primary;
+            }
+
+            @include xs {
+                border-radius: 16px 16px 0px 0px;
+            }
+
+            @include sm {
+                border-radius: 16px 16px 0px 0px;
+            }
+
+            @include md {
+                border-radius: 16px 0px 0px 16px;
+
+            }
+
+            @include lg {}
+        }
+
+        .two {
+            padding-top: 25px;
+            /* From https://css.glass */
+            background: rgba(0, 0, 139, 0.1);
+            //border-radius: 0px 16px 16px 0px;
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        @include xs {
+            border-radius: 0px 16px;
+        }
+
+        @include sm {
+            border-radius: 0px 16px 16px 0px;
+        }
+
+        @include md {
+            border-radius: 16px;
+        }
+
+        @include lg {
+            border-radius: 16px;
+        }
+        .cv{
+            a{
+                width: auto;
+                text-align: center;
+                text-decoration: none;
+                padding: 14px 25px;
+                display: inline-block;
+                background-color: $primary;
+                color: $white;
+                border-radius: 50px;
+                text-transform: initial;
+                font-weight: 500;
+                margin-top: 25px;
+            }
+            a:hover{
+                background-color: $purple;
+            }
+            
+        }
+
     }
 
-    @include xs {
-        padding-left: 50px;
-    }
-    @include sm {
-        padding-left: 155px;
-    }
-    @include md {
-        padding-left: 20px;
-    }
-    @include lg {
-        padding-left: 20px;
+    #spinner:not([hidden]) {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
     }
 
-    .linkedin{
-        color: $linkedin;
-        font-weight: bold;
+    #spinner::after {
+        content: "";
+        width: 180px;
+        height: 180px;
+        border: 4px solid #f3f3f3;
+        border-top: 3px solid $primary;
+        border-radius: 100%;
+        will-change: transform;
+        animation: spin 1s infinite linear
     }
-    
-}
-.part1{
-    
-    padding-top: 20px;
-}
-.img{
-    border-radius: 25px;
-    height: 400px;
-    width: 300px;
-}
-ul{
-    list-style-type: none;
-    font-size: 18px;
-    a{
-        text-decoration: none;
-        color: #000;
-    }
-}
-.cv{
-    a{
-        width: auto;
-        text-align: center;
-        text-decoration: none;
-        padding: 14px 25px;
-        display: inline-block;
-        background-color: $primary;
-        color: $white;
-        border-radius: 50px;
-        text-transform: initial;
-        font-weight: 500;
-    }
-    a:hover{
-        background-color: $purple;
-    }
-    
-}
 
-h1 h2 h3 h4 h5 {
-    font-family: 'Lato', sans-serif;
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
 }

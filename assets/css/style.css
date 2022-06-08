@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -22331,62 +22330,80 @@ h1 h2 h3 h4 h5 {
   font-family: "Lato", sans-serif;
 }
 
-h2, h3 {
+.glas .try {
+  width: 100vw;
+}
+.glas .try .one {
+  background: rgba(0, 0, 255, 0.5);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 16px 8px;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-left: 0px;
+  padding-left: 0px;
+  border-radius: none;
+  color: #fff;
+  padding-top: 15px;
+  font-weight: bold;
+}
+.glas .try .one .myImage {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+.glas .try .one .cv-right-content {
+  margin-top: 20px !important;
+}
+.glas .try .one .fa {
+  color: #fff;
+  font-size: 30px;
+}
+.glas .try .one .fa:hover {
   color: #000075;
-  padding: 10px;
-}
-
-.part2 {
-  padding-top: 20px;
-}
-.part2 p {
-  font-size: 18px;
 }
 @media (min-width: 0) {
-  .part2 {
-    padding-left: 50px;
+  .glas .try .one {
+    border-radius: 16px 16px 0px 0px;
   }
 }
 @media (min-width: 576px) {
-  .part2 {
-    padding-left: 155px;
+  .glas .try .one {
+    border-radius: 16px 16px 0px 0px;
   }
 }
 @media (min-width: 768px) {
-  .part2 {
-    padding-left: 20px;
+  .glas .try .one {
+    border-radius: 16px 0px 0px 16px;
+  }
+}
+.glas .try .two {
+  padding-top: 25px;
+  /* From https://css.glass */
+  background: rgba(0, 0, 139, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+@media (min-width: 0) {
+  .glas .try {
+    border-radius: 0px 16px;
+  }
+}
+@media (min-width: 576px) {
+  .glas .try {
+    border-radius: 0px 16px 16px 0px;
+  }
+}
+@media (min-width: 768px) {
+  .glas .try {
+    border-radius: 16px;
   }
 }
 @media (min-width: 992px) {
-  .part2 {
-    padding-left: 20px;
+  .glas .try {
+    border-radius: 16px;
   }
 }
-.part2 .linkedin {
-  color: #0072b1;
-  font-weight: bold;
-}
-
-.part1 {
-  padding-top: 20px;
-}
-
-.img {
-  border-radius: 25px;
-  height: 400px;
-  width: 300px;
-}
-
-ul {
-  list-style-type: none;
-  font-size: 18px;
-}
-ul a {
-  text-decoration: none;
-  color: #000;
-}
-
-.cv a {
+.glas .try .cv a {
   width: auto;
   text-align: center;
   text-decoration: none;
@@ -22397,13 +22414,39 @@ ul a {
   border-radius: 50px;
   text-transform: initial;
   font-weight: 500;
+  margin-top: 25px;
 }
-.cv a:hover {
+.glas .try .cv a:hover {
   background-color: #8C13B2;
 }
-
-h1 h2 h3 h4 h5 {
-  font-family: "Lato", sans-serif;
+.glas #spinner:not([hidden]) {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.glas #spinner::after {
+  content: "";
+  width: 180px;
+  height: 180px;
+  border: 4px solid #f3f3f3;
+  border-top: 3px solid #000075;
+  border-radius: 100%;
+  will-change: transform;
+  animation: spin 1s infinite linear;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .foot .ft-social {
