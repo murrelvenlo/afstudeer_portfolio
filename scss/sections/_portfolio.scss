@@ -102,8 +102,12 @@ background-color: $primary;
 color: $white;
 margin: 15px;
 font-weight: bold;
+
 }
 .go-back:hover{
   background-color: $purple;
 }
+}
+.remove-bullet{
+  list-style-type: none;
 }

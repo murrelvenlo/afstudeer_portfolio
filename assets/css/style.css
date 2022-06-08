@@ -22625,6 +22625,10 @@ h1 h2 h3 h4 h5 {
   background-color: #8C13B2;
 }
 
+.remove-bullet {
+  list-style-type: none;
+}
+
 .bgc {
   background-color: #f8f8f8 !important;
 }
