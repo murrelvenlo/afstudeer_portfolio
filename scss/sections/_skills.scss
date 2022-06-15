@@ -3,16 +3,18 @@
 @use '../variables' as *;
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
-.bgc{
+.bgc {
     background-color: #f8f8f8 !important; // #E2E1EC
 }
+
 .skills {
     padding-bottom: 50px;
+
     h2 {
         padding: 25px !important;
         color: $primary;
     }
-    
+
     .skills-card {
 
         margin: auto;
@@ -22,7 +24,9 @@
             box-shadow: 5px 5px 5px 5px;
             background-color: $white;
             width: 17rem !important;
-            margin: 25px;
+            margin: auto;
+            margin-bottom: 22px;
+            height: 27rem;
         }
 
         @include sm {
@@ -30,7 +34,9 @@
             box-shadow: 5px 5px 5px 5px;
             background-color: $white;
             width: 17rem !important;
-            margin: 25px;
+            margin: auto;
+            margin-bottom: 22px;
+            height: 27rem;
         }
 
         @include md {
@@ -38,7 +44,9 @@
             box-shadow: 5px 5px 5px 5px;
             background-color: $white;
             width: 17rem !important;
-            margin: 25px;
+            margin: auto;
+            margin-bottom: 22px;
+            height: 27rem;
         }
 
         @include lg {
@@ -46,7 +54,9 @@
             box-shadow: 5px 5px 5px 5px;
             background-color: $white;
             width: 17rem !important;
-            margin: 25px;
+            margin: auto;
+            margin-bottom: 22px;
+            height: 27rem;
         }
 
         .skill-fa {
@@ -79,14 +89,17 @@
     .quote {
         font-style: italic;
     }
-    .fa-star, .fa-star-half {
+
+    .fa-star,
+    .fa-star-half {
         color: $star;
         font-size: 18px;
     }
 
-    
-    
+
+
 }
+
 h1 h2 h3 h4 h5 {
     font-family: 'Lato', sans-serif;
 }

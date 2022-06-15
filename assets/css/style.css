@@ -22671,7 +22671,9 @@ h1 h2 h3 h4 h5 {
     box-shadow: 5px 5px 5px 5px;
     background-color: #fff;
     width: 17rem !important;
-    margin: 25px;
+    margin: auto;
+    margin-bottom: 22px;
+    height: 27rem;
   }
 }
 @media (min-width: 576px) {
@@ -22680,7 +22682,9 @@ h1 h2 h3 h4 h5 {
     box-shadow: 5px 5px 5px 5px;
     background-color: #fff;
     width: 17rem !important;
-    margin: 25px;
+    margin: auto;
+    margin-bottom: 22px;
+    height: 27rem;
   }
 }
 @media (min-width: 768px) {
@@ -22689,7 +22693,9 @@ h1 h2 h3 h4 h5 {
     box-shadow: 5px 5px 5px 5px;
     background-color: #fff;
     width: 17rem !important;
-    margin: 25px;
+    margin: auto;
+    margin-bottom: 22px;
+    height: 27rem;
   }
 }
 @media (min-width: 992px) {
@@ -22698,7 +22704,9 @@ h1 h2 h3 h4 h5 {
     box-shadow: 5px 5px 5px 5px;
     background-color: #fff;
     width: 17rem !important;
-    margin: 25px;
+    margin: auto;
+    margin-bottom: 22px;
+    height: 27rem;
   }
 }
 .skills .skills-card .skill-fa {
@@ -22724,7 +22732,8 @@ h1 h2 h3 h4 h5 {
 .s-skills .quote {
   font-style: italic;
 }
-.s-skills .fa-star, .s-skills .fa-star-half {
+.s-skills .fa-star,
+.s-skills .fa-star-half {
   color: #FFD700;
   font-size: 18px;
 }
