@@ -4,7 +4,8 @@
   "description": "Mijn portfolio met bootstrap v5 in sass",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch scss:assets/css"
+    "compile:sass": "sass --watch scss:assets/css",
+    "sass": "sass scss/style.scss scss/style.css"
   },
   "repository": {
     "type": "git",

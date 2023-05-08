@@ -1,7 +1,7 @@
 //CV Dowloaden
 var link = document.createElement('a');
 link.href = url;
-link.download = 'cv.pdf';
+link.download = 'cv_murrel_venlo.pdf';
 link.dispatchEvent(new MouseEvent('click'));
 
 //Cv ophalen met xhr rquest
@@ -46,12 +46,15 @@ document.querySelector("#buttonRequest").addEventListener('click', myRequest);
         let res = '';
             // In de body tonen we de naam van de campus + pc & city
             res =
-                `<div class="row try">
-                <div class="col-sm-12 col-md-4 col-lg-4 one">
-                <img src="${arrObj.basics.image}" class="card-img-top rounded-circle" alt="...">
+                `
+                <div class="about">
+                    <div class="col-sm-12 col-md-4 col-lg-4 me">
+                    <img src="${arrObj.basics.image}" class="img-fluid" alt="${arrObj.basics.image}">
+                    </div>
+                    <div class="col-sm-12 col-md-8 col-lg-8 text">
+                    </div> 
                 </div>
-                <div class="col-sm-12 col-md-8 col-lg-8 two"></div>
-            </div>`;
+                `;
 
             // Enkel indien er opleidingen zijn maken we een ul aan
             // if (arrObj[i].edu.length > 0) {

@@ -2,148 +2,202 @@
 @use '../components/mixins' as *;
 @use '../components/breakpoints' as *;
 
-.glas {
-    .try {
+// .glas {
+//     .try {
 
-        width: 100vw;
+//         width: 100vw;
 
-        .one {
-            background: rgb(0, 0, 255, 0.5); //rgb(0, 191, 255, 0.1)
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-            //border-radius: 0px 16px 0px 0px;
-            border-top-left-radius: 16px 8px;
-            backdrop-filter: blur(5px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            margin-left: 0px;
-            padding-left: 0px;
-            border-radius: none;
+//         .one {
+//             background: rgb(0, 0, 255, 0.5); //rgb(0, 191, 255, 0.1)
+//             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+//             //border-radius: 0px 16px 0px 0px;
+//             border-top-left-radius: 16px 8px;
+//             backdrop-filter: blur(5px);
+//             border: 1px solid rgba(255, 255, 255, 0.3);
+//             margin-left: 0px;
+//             padding-left: 0px;
+//             border-radius: none;
+//             color: $white;
+//             padding-top: 15px;
+//             font-weight: bold;
+//             padding-bottom: 15px;
+
+//             .myImage {
+//                 height: 300px;
+//                 width: 300px;
+//                 margin: auto;
+//             }
+
+//             .cv-right-content {
+//                 margin-top: 20px !important;
+
+//             }
+
+//             .fa {
+//                 color: $white;
+//                 font-size: 30px;
+//                 padding-bottom: 15px;
+//             }
+
+//             .fa:hover {
+//                 color: $primary;
+//             }
+
+//             @include xs {
+//                 border-radius: 16px 16px 0px 0px;
+//             }
+
+//             @include sm {
+//                 border-radius: 16px 16px 0px 0px;
+//             }
+
+//             @include md {
+//                 border-radius: 16px 0px 0px 16px;
+
+//             }
+
+//             @include lg {}
+//         }
+
+//         .two {
+//             padding-top: 25px;
+//             /* From https://css.glass */
+//             background: rgba(0, 0, 139, 0.1);
+//             //border-radius: 0px 16px 16px 0px;
+//             backdrop-filter: blur(5px);
+//             border: 1px solid rgba(255, 255, 255, 0.3);
+//         }
+
+//         @include xs {
+//             border-radius: 0px 16px;
+//         }
+
+//         @include sm {
+//             border-radius: 0px 16px 16px 0px;
+//         }
+
+//         @include md {
+//             border-radius: 16px;
+//         }
+
+//         @include lg {
+//             border-radius: 16px;
+//         }
+//         .cv{
+//             a{
+//                 width: auto;
+//                 text-align: center;
+//                 text-decoration: none;
+//                 padding: 14px 25px;
+//                 display: inline-block;
+//                 background-color: $primary;
+//                 color: $white;
+//                 border-radius: 50px;
+//                 text-transform: initial;
+//                 font-weight: 500;
+//                 margin-top: 25px;
+
+//                 @include xs {
+//                     margin-bottom: 25px;
+//                 }
+            
+//                 @include sm {
+//                     margin-bottom: 25px;
+//                 }
+//             }
+//             a:hover{
+//                 background-color: $purple;
+//             }
+            
+//         }
+
+//     }
+
+//     #spinner:not([hidden]) {
+//         position: fixed;
+//         top: 0;
+//         left: 0;
+//         right: 0;
+//         bottom: 0;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         z-index: 999;
+//     }
+
+//     #spinner::after {
+//         content: "";
+//         width: 180px;
+//         height: 180px;
+//         border: 4px solid #f3f3f3;
+//         border-top: 3px solid $primary;
+//         border-radius: 100%;
+//         will-change: transform;
+//         animation: spin 1s infinite linear
+//     }
+
+//     @keyframes spin {
+//         from {
+//             transform: rotate(0deg);
+//         }
+
+//         to {
+//             transform: rotate(360deg);
+//         }
+//     }
+// }
+
+.about {
+    // font-family: Lato;
+    font-family: 'Lato', sans-serif;
+    padding: 15px;
+    .me{
+        padding: 20px;
+
+        img {
+            filter: grayscale(50%);
+            border-radius: 2%;
+        }
+    }
+    .text {
+        padding: 25px;
+        hr {
+            border-top: 10px solid #1E2D52;
+        }
+        .line2 {
+            border-top: 5px solid #1E2D52;
+            width: 15%;
+        }
+        h3 {
+            padding-top: 10px;
+        }
+    }
+    .cv{
+        a{
+            width: auto;
+            text-align: center;
+            text-decoration: none;
+            padding: 14px 25px;
+            display: inline-block;
+            background-color: $blue-gray;
             color: $white;
-            padding-top: 15px;
-            font-weight: bold;
-            padding-bottom: 15px;
-
-            .myImage {
-                height: 300px;
-                width: 300px;
-                margin: auto;
-            }
-
-            .cv-right-content {
-                margin-top: 20px !important;
-
-            }
-
-            .fa {
-                color: $white;
-                font-size: 30px;
-                padding-bottom: 15px;
-            }
-
-            .fa:hover {
-                color: $primary;
-            }
+            border-radius: 50px;
+            text-transform: initial;
+            font-weight: 500;
+            margin-top: 25px;
 
             @include xs {
-                border-radius: 16px 16px 0px 0px;
+                margin-bottom: 25px;
             }
-
+        
             @include sm {
-                border-radius: 16px 16px 0px 0px;
+                margin-bottom: 25px;
             }
-
-            @include md {
-                border-radius: 16px 0px 0px 16px;
-
-            }
-
-            @include lg {}
         }
-
-        .two {
-            padding-top: 25px;
-            /* From https://css.glass */
-            background: rgba(0, 0, 139, 0.1);
-            //border-radius: 0px 16px 16px 0px;
-            backdrop-filter: blur(5px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
+        a:hover{
+            background-color: $primary;
         }
-
-        @include xs {
-            border-radius: 0px 16px;
-        }
-
-        @include sm {
-            border-radius: 0px 16px 16px 0px;
-        }
-
-        @include md {
-            border-radius: 16px;
-        }
-
-        @include lg {
-            border-radius: 16px;
-        }
-        .cv{
-            a{
-                width: auto;
-                text-align: center;
-                text-decoration: none;
-                padding: 14px 25px;
-                display: inline-block;
-                background-color: $primary;
-                color: $white;
-                border-radius: 50px;
-                text-transform: initial;
-                font-weight: 500;
-                margin-top: 25px;
-
-                @include xs {
-                    margin-bottom: 25px;
-                }
-            
-                @include sm {
-                    margin-bottom: 25px;
-                }
-            }
-            a:hover{
-                background-color: $purple;
-            }
-            
-        }
-
-    }
-
-    #spinner:not([hidden]) {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 999;
-    }
-
-    #spinner::after {
-        content: "";
-        width: 180px;
-        height: 180px;
-        border: 4px solid #f3f3f3;
-        border-top: 3px solid $primary;
-        border-radius: 100%;
-        will-change: transform;
-        animation: spin 1s infinite linear
-    }
-
-    @keyframes spin {
-        from {
-            transform: rotate(0deg);
-        }
-
-        to {
-            transform: rotate(360deg);
-        }
+        
     }
 }
 .glas{

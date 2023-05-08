@@ -7,6 +7,7 @@
     max-width: 26rem;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 2%;
   }
   #portfolio .project .project-link {
     position: relative;
@@ -23,6 +24,7 @@
     justify-content: center;
     opacity: 0;
     transition: opacity ease-in-out 0.25s;
+    border-radius: 2%;
   }
   #portfolio .project .project-link .project-hover .hover-content {
     font-size: 1.25rem;

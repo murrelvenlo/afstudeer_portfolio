@@ -1,4 +1,4 @@
-@use "variables";
+@use 'variables';
 @use "components/animations";
 @use "components/buttons";
 @use "components/typography";
@@ -12,6 +12,4 @@
 @use "sections/portfolio";
 @use "sections/skills";
 @use "sections/hobbies";
-/*# sourceMappingURL=style.css.map */
-
 /*# sourceMappingURL=style.css.map */
