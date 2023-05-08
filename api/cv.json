@@ -1,0 +1,33 @@
+{
+    "basics": {
+      "name": "Murrel Venlo",
+      "label": "Student Programmeur",
+      "image": "../images/torarica.jpg",
+      "birth": "10 maart 1992",
+      "nationality": "Surinamer",
+      "email": "venlomj@hotmail.nl",
+      "phone": "0032 474244807",
+      "url": "venlomj.sinners.be",
+      "summary": "3 jaar geleden ben ik naar België gekomen om IT te studeren en mij te verdiepen in het programmeren. Vorig jaar heb ik de Graduaatsopleiding, Programmeren succesvol agerond en doe momenteel het verkorte traject van de IT-Factory, Appliaction Development/Artificiële Intelligentie Ik heb deze keuze gemaakt omdat deze richting aan de universiteit van Paramaribo niet voldoende wordt aangeboden. Ik woon momenteel in Eindhout, Laakdal.",
+      "profiles": {
+        "network": "LinkedIn",
+        "username": "Murrel Venlo",
+        "url": "https://www.linkedin.com/in/murrel-venlo-6552bb135/"
+      },
+      "location": {
+        "address": "Oude Tramlijn 3",
+        "postalCode": "2430",
+        "city": "Laakdal",
+        "countryCode": "BE",
+        "region": "Antwerpen"
+      }
+    },
+    "education": [{
+      "institution": "Thomas more Hogeschool",
+      "url": "https://www.thomasmore.be/",
+      "area": "Applicatie ontwikkeling",
+      "studyType": "Bachelor",
+      "startDate": "2020-09-21",
+      "endDate": "2022-09-18"
+    }]
+  }
