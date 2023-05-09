@@ -22573,6 +22573,57 @@ h1 h2 h3 h4 h5 {
   list-style-type: none;
 }
 
+.php h5, .php h6 {
+  color: #000075;
+  padding: 5px;
+}
+.php .fa-laravel {
+  color: #fb503b !important;
+  font-size: 25px;
+}
+.php .fa-php {
+  color: #8993be;
+  font-size: 25px;
+}
+.php .card-body .p-info {
+  color: #6610f2 !important;
+}
+.php .card-body .p-info .gh {
+  font-weight: bold;
+}
+.php .card-body .p-info a {
+  color: #6610f2;
+  text-decoration: none;
+}
+.php .card-body .card:hover .card-hover-images {
+  display: block;
+}
+.php .card-body .card-hover-images {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.php .card-body .card-hover-image1 {
+  background-image: url("/images/homepage.png");
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.php .card-body .card-hover-image2 {
+  background-image: url("/images/admin.png");
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
 .bgc {
   background-color: #f8f8f8 !important;
 }

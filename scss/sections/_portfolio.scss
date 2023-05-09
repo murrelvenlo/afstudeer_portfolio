@@ -113,3 +113,65 @@ font-weight: bold;
 .remove-bullet{
   list-style-type: none;
 }
+
+
+
+.php {
+  h5, h6 {
+    color: $primary;
+    padding: 5px;
+  }
+  .fa-laravel {
+    color: #fb503b !important;
+    font-size: 25px;
+  }
+  .fa-php {
+    color: #8993be;
+    font-size: 25px;
+  }
+  .card-body {
+    
+  .p-info {
+    color: $indigo !important;
+    .gh {
+      font-weight: bold;
+    }
+    a {
+      color: $indigo;
+      text-decoration: none;
+    }
+  }
+    .card:hover .card-hover-images {
+      display: block;
+    }
+    
+    .card-hover-images {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+    
+    .card-hover-image1 {
+      background-image: url('/images/homepage.png');
+      background-size: cover;
+      background-position: center;
+      width: 50%;
+      height: 100%;
+      float: left;
+    }
+    
+    .card-hover-image2 {
+      background-image: url('/images/admin.png');
+      background-size: cover;
+      background-position: center;
+      width: 50%;
+      height: 100%;
+      float: right;
+    }
+    
+  }
+}
