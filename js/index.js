@@ -5,6 +5,13 @@ link.download = 'cv_murrel_venlo.pdf';
 link.dispatchEvent(new MouseEvent('click'));
 
 //Cv ophalen met xhr rquest
+var viewLink = document.createElement('a');
+viewLink.href = 'cv_murrel_venlo.pdf';
+viewLink.target = '_blank';
+viewLink.textContent = 'View CV';
+
+// add the links to the page
+document.body.appendChild(viewLink);
 
 document.querySelector("#buttonRequest").addEventListener('click', myRequest);
 
