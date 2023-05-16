@@ -131,6 +131,10 @@ font-weight: bold;
   }
   .card-body {
     
+  background-color: rgba(0, 191, 255, 0.1);
+  backdrop-filter: blur(10px) saturate(100%);
+  -webkit-backdrop-filter: blur(10px) saturate(100%);
+    
   .p-info {
     color: $indigo !important;
     .gh {

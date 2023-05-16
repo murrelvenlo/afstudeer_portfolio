@@ -22585,6 +22585,11 @@ h1 h2 h3 h4 h5 {
   color: #8993be;
   font-size: 25px;
 }
+.php .card-body {
+  background-color: rgba(0, 191, 255, 0.1);
+  backdrop-filter: blur(10px) saturate(100%);
+  -webkit-backdrop-filter: blur(10px) saturate(100%);
+}
 .php .card-body .p-info {
   color: #6610f2 !important;
 }
